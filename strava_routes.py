@@ -30,4 +30,5 @@ def main(file_name):
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("Usage: strava_routes.py [file_name]")
-    main(sys.argv[1])
+    else:
+        main(sys.argv[1])
